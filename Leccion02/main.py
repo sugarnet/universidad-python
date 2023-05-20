@@ -9,3 +9,11 @@ print(z)
 print(id(x))
 print(id(y))
 print(id(z))
+
+name = 'Diego Scifo'
+phone = 123456
+email = 'dscifo@mail.com'
+
+print(name)
+print(phone)
+print(email)
