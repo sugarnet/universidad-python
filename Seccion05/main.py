@@ -1,20 +1,27 @@
-myVar = 2 == 4
-print(f'Evaluation == : {myVar}')
+myVarA = True
+myVarB = False
 
-myVar = 2 != 4
-print(f'Evaluation != : {myVar}')
+result = myVarA and myVarB
+result = myVarA or myVarB
+print(not result)
 
-myVar = 2 < 4
-print(f'Evaluation < : {myVar}')
-
-myVar = 2 <= 4
-print(f'Evaluation <= : {myVar}')
-
-myVar = 2 > 4
-print(f'Evaluation > : {myVar}')
-
-myVar = 2 >= 4
-print(f'Evaluation > : {myVar}')
+# myVar = 2 == 4
+# print(f'Evaluation == : {myVar}')
+#
+# myVar = 2 != 4
+# print(f'Evaluation != : {myVar}')
+#
+# myVar = 2 < 4
+# print(f'Evaluation < : {myVar}')
+#
+# myVar = 2 <= 4
+# print(f'Evaluation <= : {myVar}')
+#
+# myVar = 2 > 4
+# print(f'Evaluation > : {myVar}')
+#
+# myVar = 2 >= 4
+# print(f'Evaluation > : {myVar}')
 
 # operator1 = 3
 # operator2 = 2
